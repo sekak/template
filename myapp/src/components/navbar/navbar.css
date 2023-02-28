@@ -1,0 +1,56 @@
+.navbar
+{
+	display: flex;
+	align-items:  center;
+ 	justify-content: space-evenly;
+	background-color: rgb(0, 0, 0);
+	padding: 20px;
+}
+
+
+.logo{
+	color: rgba(92, 96, 244);
+ 	font-size: 48px;
+	font-weight: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:0.2px solid rgb(14, 0, 0);
+  	cursor: pointer;
+	font-family:monospace;
+}
+
+
+.left{
+	color: rgb(208, 208, 208);
+}
+
+.right{
+	display: flex;
+	padding: 1px;
+
+}
+
+.right .button_login1{
+	font-size: 18px;
+	font-weight: 100;
+	margin: 5px;
+	background-color: transparent;
+	color: rgba(92, 96, 244);
+	border: none;
+	cursor: pointer;
+}
+
+
+.right .button_login2{
+	font-size: 18px;
+	font-weight: 100;
+	margin: 5px;
+	background-color: rgba(92, 96, 244);
+
+	border: none;
+	color: rgb(255, 255, 255);
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+}
