@@ -3,7 +3,7 @@
 	display: grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-template-row: 1fr 2fr 1fr;
-	gap: 30px 50px
+	gap: 30px 50px;
 }
 
 .item1
@@ -13,7 +13,12 @@
 	align-items: center;
 	flex-direction: column;
 	width: 250px;
+	color:white;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
 }	
+
+
 
 .item1 h2{
 	text-align: center;
@@ -36,4 +41,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.ligne_bottom{
+	width: 1000px;
+	height: 1px;
+	background-color: rgba(101, 101, 101, 0.547);
+	margin: 40px;
 }
